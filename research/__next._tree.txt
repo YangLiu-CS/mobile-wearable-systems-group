@@ -38,4 +38,4 @@
 :HL["/mobile-wearable-systems-group/publications/earsleeve.png","image"]
 :HL["/mobile-wearable-systems-group/publications/nutriear.png","image"]
 :HL["/mobile-wearable-systems-group/publications/impactear.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"oLUSpn9bhkHJWW7NBVKsk"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"pG3MMUszwpl8urqcFzF7i"}
