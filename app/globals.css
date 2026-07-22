@@ -177,7 +177,7 @@ nav a:hover::after { transform: scaleX(1); }
 .team-note { margin-top: 60px; padding-top: 34px; border-top: 1px solid var(--ink); display: grid; grid-template-columns: 180px 1fr; }
 .team-note > span { font: 600 10px var(--font-geist-mono); text-transform: uppercase; }
 .team-note h2 { margin: 0 0 18px; font-size: 34px; font-weight: 540; }
-.team-note p { max-width: 680px; color: var(--muted); line-height: 1.65; }
+.team-note p { max-width: none; color: var(--muted); line-height: 1.65; }
 .team-note .button { margin-top: 20px; }
 
 .news-page { padding-bottom: 80px; }
