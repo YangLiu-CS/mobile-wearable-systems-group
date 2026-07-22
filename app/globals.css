@@ -115,8 +115,10 @@ nav a:hover::after { transform: scaleX(1); }
 .publication-list h3 { margin: 0; max-width: 900px; font-size: 18px; line-height: 1.38; font-weight: 540; }
 .publication-list p { margin: 9px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .publication-note { margin: 22px 0 4px; color: var(--muted); font: 600 11px var(--font-geist-mono); letter-spacing: .04em; text-transform: uppercase; }
-.publication-note b, .corresponding-author sup { color: var(--blue); }
+.publication-note b { color: var(--blue); }
+.pub-authors strong { color: var(--ink); font-weight: 700; }
 .corresponding-author { color: var(--ink); font-weight: 700; }
+.corresponding-author sup { color: inherit; }
 .corresponding-author sup { margin-left: 2px; font-size: .96em; font-weight: 800; line-height: 0; }
 .pub-resources { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
 .pub-resources a { padding: 6px 9px; border: 1px solid var(--line); border-radius: 2px; color: var(--ink); font: 600 9px var(--font-geist-mono); text-transform: uppercase; letter-spacing: .05em; transition: .2s; }
