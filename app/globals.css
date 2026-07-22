@@ -148,8 +148,13 @@ nav a:hover::after { transform: scaleX(1); }
 .research-main > p a:hover { color: var(--ink); }
 .paper-mosaic { margin-top: 32px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
 .paper-tile { min-width: 0; aspect-ratio: 4 / 3; position: relative; display: grid; place-items: center; overflow: hidden; border: 1px solid var(--line); background: #fff; }
-.paper-tile > img { display: block; width: 100%; height: 100%; padding: 12px; object-fit: contain; transition: filter .35s ease, transform .35s ease; }
+.paper-tile > img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; min-width: 0; min-height: 0; padding: 14px; object-fit: contain; transition: filter .35s ease, transform .35s ease; }
+.paper-tile-overlay { position: absolute; z-index: 1; inset: 0; padding: 15px; display: flex; flex-direction: column; justify-content: flex-end; gap: 7px; color: #fff; background: linear-gradient(180deg, transparent 15%, rgba(7,14,21,.9) 100%); opacity: 0; transition: opacity .25s ease; }
+.paper-tile-overlay small { font: 600 8px var(--font-geist-mono); letter-spacing: .07em; text-transform: uppercase; }
+.paper-tile-overlay strong { max-width: 30ch; font-size: 14px; line-height: 1.28; font-weight: 650; }
+.paper-tile-overlay i { font: 600 8px var(--font-geist-mono); letter-spacing: .05em; text-transform: uppercase; font-style: normal; }
 .paper-tile:hover > img, .paper-tile:focus-visible > img { filter: saturate(.72); transform: scale(.97); }
+.paper-tile:hover .paper-tile-overlay, .paper-tile:focus-visible .paper-tile-overlay { opacity: 1; }
 .paper-tile:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 .research-media { display: grid; grid-template-columns: 1.4fr 1fr; grid-auto-rows: 210px; gap: 8px; margin-top: 30px; background: #f2f5f7; }
 .research-media img, .research-media video { width: 100%; height: 100%; }
@@ -319,6 +324,9 @@ nav a:hover::after { transform: scaleX(1); }
 }
 
 @media (hover: none) {
+  .paper-tile-overlay { padding: 11px; background: linear-gradient(180deg, transparent 45%, rgba(7,14,21,.92) 100%); opacity: 1; }
+  .paper-tile-overlay small, .paper-tile-overlay i { display: none; }
+  .paper-tile-overlay strong { font-size: 11px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
