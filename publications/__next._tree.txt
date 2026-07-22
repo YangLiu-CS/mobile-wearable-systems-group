@@ -8,4 +8,4 @@
 :HL["/mobile-wearable-systems-group/publications/nutriear.png","image"]
 :HL["/mobile-wearable-systems-group/publications/neuropath.png","image"]
 :HL["/mobile-wearable-systems-group/publications/earcalo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"publications","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"PeuATnacVuwjBFzE7Z8CQ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"publications","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"sOz0w0GqK-ztwro1FvrlG"}
