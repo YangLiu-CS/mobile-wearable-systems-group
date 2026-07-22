@@ -1,7 +1,7 @@
 :HL["/mobile-wearable-systems-group/_next/static/media/22a5144ee8d83bca-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mobile-wearable-systems-group/_next/static/media/7d4881bb7e1bf84d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/mobile-wearable-systems-group/_next/static/css/11a8bf46e2d8f580.css","style"]
+:HL["/mobile-wearable-systems-group/_next/static/css/afea20e4fbf00a98.css","style"]
 :HL["/mobile-wearable-systems-group/media/behavior.png","image"]
 :HL["/mobile-wearable-systems-group/media/health.png","image"]
 :HL["/mobile-wearable-systems-group/media/interaction.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"YGLrieSMI4kGlLw-cvD_v"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"jtTSRXKv95AETgv5pP4iT"}
