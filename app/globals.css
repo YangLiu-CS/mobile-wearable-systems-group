@@ -174,6 +174,12 @@ nav a:hover::after { transform: scaleX(1); }
 .student-card h3 { margin: 0 0 14px; font-size: 24px; font-weight: 550; letter-spacing: -.035em; }
 .student-card span { color: var(--muted); font-size: 13px; line-height: 1.5; }
 .student-card b { margin-top: auto; padding-top: 22px; font: 600 9px var(--font-geist-mono); text-transform: uppercase; }
+.student-lists { display: grid; grid-template-columns: repeat(2, 1fr); margin-top: 24px; border: 1px solid var(--line); background: #fff; }
+.student-lists section { min-height: 160px; padding: 28px 30px; border-right: 1px solid var(--line); }
+.student-lists section:last-child { border-right: 0; }
+.student-lists h3 { margin: 0 0 24px; color: var(--blue); font: 600 10px var(--font-geist-mono); text-transform: uppercase; letter-spacing: .08em; }
+.student-lists ul { margin: 0; padding: 0; list-style: none; }
+.student-lists li { padding: 10px 0; border-top: 1px solid var(--line); font-size: 18px; font-weight: 520; letter-spacing: -.02em; }
 .team-note { margin-top: 60px; padding-top: 34px; border-top: 1px solid var(--ink); display: grid; grid-template-columns: 180px 1fr; }
 .team-note > span { font: 600 10px var(--font-geist-mono); text-transform: uppercase; }
 .team-note h2 { margin: 0 0 18px; font-size: 34px; font-weight: 540; }
@@ -271,6 +277,9 @@ nav a:hover::after { transform: scaleX(1); }
   .student-photo, .student-initial { min-height: 250px; }
   .student-card > div:last-child { padding: 24px 20px; }
   .student-card p { margin-bottom: 24px; }
+  .student-lists { grid-template-columns: 1fr; }
+  .student-lists section { min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  .student-lists section:last-child { border-bottom: 0; }
   .team-note { grid-template-columns: 1fr; gap: 30px; }
   .news-page article { grid-template-columns: 1fr auto; gap: 12px; }
   .news-number { grid-column: 2; }
