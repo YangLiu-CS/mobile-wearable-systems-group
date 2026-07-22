@@ -104,8 +104,12 @@ nav a:hover::after { transform: scaleX(1); }
 
 .selected-pubs { border-top: 1px solid var(--line); }
 .publication-list { border-top: 1px solid var(--ink); }
-.publication-list article { padding: 25px 0; display: grid; grid-template-columns: 70px 1fr; gap: 20px; border-bottom: 1px solid var(--line); }
-.pub-index { font: 10px var(--font-geist-mono); color: var(--muted); }
+.publication-list article { padding: 28px 0; display: grid; grid-template-columns: 260px 1fr; gap: 28px; align-items: center; border-bottom: 1px solid var(--line); }
+.pub-figure { height: 150px; padding: 12px; display: grid; place-items: center; overflow: hidden; border: 1px solid var(--line); background: #fff; }
+.pub-figure img { width: 100%; height: 100%; object-fit: contain; }
+.pub-figure-pending { width: 100%; height: 100%; padding: 14px; display: flex; flex-direction: column; justify-content: flex-end; background: #f3f6f8; }
+.pub-figure-pending span, .pub-figure-pending small { font: 600 8px var(--font-geist-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .07em; }
+.pub-figure-pending b { margin: auto 0 7px; font-size: 18px; line-height: 1.15; font-weight: 540; letter-spacing: -.03em; }
 .pub-meta { display: flex; gap: 10px; margin-bottom: 9px; font: 600 9px var(--font-geist-mono); text-transform: uppercase; letter-spacing: .06em; }
 .pub-meta span:first-child { color: var(--blue); }
 .publication-list h3 { margin: 0; max-width: 900px; font-size: 18px; line-height: 1.38; font-weight: 540; }
@@ -252,7 +256,8 @@ nav a:hover::after { transform: scaleX(1); }
   .media-area-card { display: flex; min-height: 0; }
   .area-card-image { aspect-ratio: 1.5; border-right: 0; border-bottom: 1px solid var(--line); }
   .home-updates { gap: 45px; }
-  .publication-list article { grid-template-columns: 38px 1fr; }
+  .publication-list article { grid-template-columns: 1fr; gap: 18px; }
+  .pub-figure { height: 190px; }
   .publication-list h3 { font-size: 16px; }
   .page-hero { padding: 44px 0 38px; }
   .page-hero h1 { font-size: 38px; }
