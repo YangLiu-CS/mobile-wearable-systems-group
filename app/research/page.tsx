@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import type { CSSProperties, ReactNode } from "react";
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { DemoWall } from "../components/DemoWall";
 import { behaviorPapers, interactionPapers, wellnessPapers, type ResearchPaper } from "./papers";
@@ -20,12 +20,10 @@ function ResearchSection({ id, number, title, children }: { id: string; number: 
 
 function PaperGallery({ papers }: { papers: ResearchPaper[] }) {
   return <div className="paper-mosaic" aria-label="Related publications">
-    {papers.map((paper, index) => {
-      const cropScale = paper.contain ? 1 : paper.image === "/media/health.png" ? 2.2 : paper.image === "/media/behavior.png" ? 1.65 : 1.75;
-      return <a className="paper-tile" href={paper.href} target="_blank" rel="noreferrer" key={`${paper.venue}-${index}`} style={{ aspectRatio: paper.aspectRatio }} aria-label={`${paper.title} — ${paper.venue}`} title={paper.title}>
-      <img className={paper.contain ? "is-contained" : undefined} src={`${basePath}${paper.image}`} alt="" style={{ objectPosition: paper.position, transformOrigin: paper.position, "--paper-scale": cropScale } as CSSProperties} />
+    {papers.map((paper, index) => <a className="paper-tile" href={paper.href} target="_blank" rel="noreferrer" key={`${paper.venue}-${index}`} aria-label={`${paper.title} — ${paper.venue}`} title={paper.title}>
+      <img src={`${basePath}${paper.image}`} alt="" />
       <span className="paper-tile-overlay"><small>{paper.venue}</small><strong>{paper.title}</strong><i>Open paper ↗</i></span>
-    </a>})}
+    </a>)}
   </div>;
 }
 
