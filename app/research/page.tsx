@@ -22,7 +22,6 @@ function PaperGallery({ papers }: { papers: ResearchPaper[] }) {
   return <div className="paper-mosaic" aria-label="Related publications">
     {papers.map((paper, index) => <a className="paper-tile" href={paper.href} target="_blank" rel="noreferrer" key={`${paper.venue}-${index}`} aria-label={`${paper.title} — ${paper.venue}`} title={paper.title}>
       <img src={`${basePath}${paper.image}`} alt="" />
-      <span className="paper-tile-overlay"><small>{paper.venue}</small><strong>{paper.title}</strong><i>Open paper ↗</i></span>
     </a>)}
   </div>;
 }
