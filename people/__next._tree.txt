@@ -1,6 +1,6 @@
 :HL["/mobile-wearable-systems-group/_next/static/media/22a5144ee8d83bca-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mobile-wearable-systems-group/_next/static/media/7d4881bb7e1bf84d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/mobile-wearable-systems-group/_next/static/css/fbd702752eb3132c.css","style"]
+:HL["/mobile-wearable-systems-group/_next/static/css/a5fa7aebbc3556df.css","style"]
 :HL["/mobile-wearable-systems-group/yang-liu.jpg","image"]
 :HL["/mobile-wearable-systems-group/people/linlu-gao.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"people","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"dMLvfRND8lPvUopfRyHUh"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"people","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"oLUSpn9bhkHJWW7NBVKsk"}
