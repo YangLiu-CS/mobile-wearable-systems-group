@@ -1,5 +1,14 @@
 :HL["/mobile-wearable-systems-group/_next/static/media/22a5144ee8d83bca-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mobile-wearable-systems-group/_next/static/media/7d4881bb7e1bf84d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/mobile-wearable-systems-group/_next/static/css/6ab0af5ddcd3a075.css","style"]
+:HL["/mobile-wearable-systems-group/_next/static/css/a1d4584ebf56fdaa.css","style"]
 :HL["/mobile-wearable-systems-group/media/vision.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"NJdDPJAkB_CscxJESCxSj"}
+:HL["/mobile-wearable-systems-group/media/behavior.png","image"]
+:HL["/mobile-wearable-systems-group/media/interaction.png","image"]
+:HL["/mobile-wearable-systems-group/publications/neuropath.png","image"]
+:HL["/mobile-wearable-systems-group/media/health.png","image"]
+:HL["/mobile-wearable-systems-group/publications/harmonic-fingerprinting.png","image"]
+:HL["/mobile-wearable-systems-group/publications/earcalo.png","image"]
+:HL["/mobile-wearable-systems-group/publications/earsleeve.png","image"]
+:HL["/mobile-wearable-systems-group/publications/nutriear.png","image"]
+:HL["/mobile-wearable-systems-group/publications/impactear.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"PeuATnacVuwjBFzE7Z8CQ"}
