@@ -49,7 +49,7 @@ export const publications = [
 export const newsItems = [
   { date: "2026", title: "ImpactEar accepted to ACM IMWUT 2026", text: "Our work on cross-activity ground reaction force estimation using earable IMUs has been accepted to ACM IMWUT 2026.", url: null },
   { date: "2026", title: "Mobile wireless charging work published at ACM MobiSys 2026", text: "Our work on reliable metal foreign-object detection via harmonic fingerprinting has been published at ACM MobiSys 2026.", url: null },
-  { date: "2026", title: "Survey of earable technology published in ACM IMWUT", text: "Our survey examines current trends, tools, and research directions across earable computing.", url: null },
+  { date: "2026", title: "Survey of earable technology published in ACM IMWUT 2026", text: "Our survey examines current trends, tools, and research directions across earable computing.", url: null },
   { date: "2026", title: "EarSleeve published at ACM SenSys 2026", text: "EarSleeve transforms everyday earphones into a 12-lead ECG sensing platform.", url: null },
   { date: "2026", title: "NeuroPath published at ACM SenSys 2026", text: "NeuroPath studies the practical adoption of motor-imagery decoding through EEG signals.", url: null },
   { date: "2026", title: "NutriEar published at ACM SenSys 2026", text: "NutriEar enables robust nutrition-aware food classification from in-ear acoustic signals.", url: null },
