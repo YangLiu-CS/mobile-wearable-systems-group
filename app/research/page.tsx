@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
+import { DemoWall } from "../components/DemoWall";
 
 export const metadata: Metadata = { title: "Research | Mobile and Wearable Systems Group" };
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 function Citation({ href, children }: { href: string; children: ReactNode }) {
   return <a href={href} target="_blank" rel="noreferrer">{children}</a>;
@@ -21,6 +23,12 @@ export default function ResearchPage() {
       <p className="section-label">Research</p>
       <h1>Human-centered sensing in the real world.</h1>
       <p>We combine sensing, systems, and AI to build mobile and wearable technologies that are useful beyond the lab.</p>
+      <div className="research-overview">
+        <div className="research-overview-figure">
+          <img src={`${basePath}/media/vision.png`} alt="Research overview connecting data acquisition, intelligence, well-being, and feedback through the human-digital interface" />
+        </div>
+        <DemoWall compact />
+      </div>
     </section>
 
     <section className="research-page page-width">
