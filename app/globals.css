@@ -129,7 +129,7 @@ nav a:hover::after { transform: scaleX(1); }
 .page-hero > p:not(.section-label) { max-width: none; margin: 0; color: var(--muted); white-space: nowrap; font-size: clamp(13px,1.15vw,16px); line-height: 1.6; letter-spacing: -.01em; }
 .page-hero .inline-link { margin-top: 24px; display: inline-block; }
 .page-hero .button { margin-top: 24px; display: inline-flex; }
-.research-detail { padding: 52px 0; display: grid; grid-template-columns: 110px 1fr; gap: 38px; border-bottom: 1px solid var(--line); scroll-margin-top: 82px; }
+.research-detail { padding: 52px 0; display: grid; grid-template-columns: 64px 1fr; gap: 30px; border-bottom: 1px solid var(--line); scroll-margin-top: 82px; }
 .research-side { display: flex; flex-direction: column; gap: 25px; align-items: flex-start; }
 .research-side > span { font: 10px var(--font-geist-mono); color: var(--muted); }
 .area-icon { width: 58px; height: 58px; border: 1px solid var(--ink); border-radius: 50%; display: grid; place-items: center; }
@@ -139,7 +139,9 @@ nav a:hover::after { transform: scaleX(1); }
 .icon-03 i { width: 27px; height: 14px; border-block: 2px solid var(--ink); transform: skew(-25deg); }
 .research-main h2 { margin: 0 0 16px; font-size: 32px; letter-spacing: -.035em; font-weight: 550; }
 .research-summary { max-width: none; font-size: 18px !important; line-height: 1.55 !important; color: var(--ink) !important; }
-.research-main > p { max-width: none; color: var(--muted); line-height: 1.7; }
+.research-main > p { max-width: none; margin: 0; color: var(--muted); font-size: 17px; line-height: 1.75; }
+.research-main > p a { color: var(--blue); font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.research-main > p a:hover { color: var(--ink); }
 .research-media { display: grid; grid-template-columns: 1.4fr 1fr; grid-auto-rows: 210px; gap: 8px; margin-top: 30px; background: #f2f5f7; }
 .research-media img, .research-media video { width: 100%; height: 100%; }
 .research-media img { object-fit: contain; background: #fff; padding: 12px; }
