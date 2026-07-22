@@ -1,6 +1,6 @@
 :HL["/mobile-wearable-systems-group/_next/static/media/22a5144ee8d83bca-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mobile-wearable-systems-group/_next/static/media/7d4881bb7e1bf84d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/mobile-wearable-systems-group/_next/static/css/741cc10fa3fa620b.css","style"]
+:HL["/mobile-wearable-systems-group/_next/static/css/8dfb0b47454b6884.css","style"]
 :HL["/mobile-wearable-systems-group/publications/impactear.png","image"]
 :HL["/mobile-wearable-systems-group/publications/earable-survey.png","image"]
 :HL["/mobile-wearable-systems-group/publications/harmonic-fingerprinting.png","image"]
@@ -8,4 +8,4 @@
 :HL["/mobile-wearable-systems-group/publications/nutriear.png","image"]
 :HL["/mobile-wearable-systems-group/publications/neuropath.png","image"]
 :HL["/mobile-wearable-systems-group/publications/earcalo.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"publications","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"vIABLITE8INMMPs72vDJV"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"publications","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"3XWmlojkxKDTC-sCwRt9d"}
