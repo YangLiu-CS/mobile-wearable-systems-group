@@ -4,4 +4,4 @@
 :HL["/mobile-wearable-systems-group/media/behavior.png","image"]
 :HL["/mobile-wearable-systems-group/media/health.png","image"]
 :HL["/mobile-wearable-systems-group/media/interaction.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"pJIuB7cL4RoBCH5ukMgtn"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"7913Os7KUoq69GoZ78JDA"}
