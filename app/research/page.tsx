@@ -20,10 +20,19 @@ function ResearchSection({ id, number, title, children }: { id: string; number: 
 
 function PaperGallery({ papers }: { papers: ResearchPaper[] }) {
   return <div className="paper-mosaic" aria-label="Related publications">
-    {papers.map((paper, index) => <a className="paper-tile" href={paper.href} target="_blank" rel="noreferrer" key={`${paper.venue}-${index}`} aria-label={`${paper.title} — ${paper.venue}`} title={paper.title}>
-      <img src={`${basePath}${paper.image}`} alt="" />
-      <span className="paper-tile-overlay"><small>{paper.venue}</small><strong>{paper.title}</strong><i>Open paper ↗</i></span>
-    </a>)}
+    {papers.map((paper, index) => paper.companion
+      ? <div className="paper-tile paper-tile-group" role="group" key={`${paper.venue}-${index}`} aria-label={`${paper.title} and ${paper.companion.title}`}>
+          <img src={`${basePath}${paper.image}`} alt="" />
+          <div className="paper-tile-overlay paper-pair-overlay">
+            <span className="paper-pair-label">Conference + extended journal</span>
+            <a className="paper-tile-paper" href={paper.href} target="_blank" rel="noreferrer"><small>{paper.venue}</small><strong>{paper.title}</strong></a>
+            <a className="paper-tile-paper" href={paper.companion.href} target="_blank" rel="noreferrer"><small>{paper.companion.venue}</small><strong>{paper.companion.title}</strong></a>
+          </div>
+        </div>
+      : <a className="paper-tile" href={paper.href} target="_blank" rel="noreferrer" key={`${paper.venue}-${index}`} aria-label={`${paper.title} — ${paper.venue}`} title={paper.title}>
+          <img src={`${basePath}${paper.image}`} alt="" />
+          <span className="paper-tile-overlay"><small>{paper.venue}</small><strong>{paper.title}</strong><i>Open paper ↗</i></span>
+        </a>)}
   </div>;
 }
 

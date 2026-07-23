@@ -3,6 +3,11 @@ export type ResearchPaper = {
   venue: string;
   href: string;
   image: string;
+  companion?: {
+    title: string;
+    venue: string;
+    href: string;
+  };
   position?: string;
   aspectRatio: string;
   contain?: boolean;
@@ -41,14 +46,10 @@ export const wellnessPapers: ResearchPaper[] = [
 export const interactionPapers: ResearchPaper[] = [
   { title: "Rulers on Our Arms: Waving to Measure Object Size through Contactless Sensing", venue: "ACM TOSN 2019", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2019-TOSN-Aware.pdf", image: "/research-papers/tosn-aware.png", aspectRatio: "1.3 / 1" },
   { title: "Reliable Metal Foreign Object Detection for Mobile Wireless Charging via Harmonic Fingerprinting", venue: "ACM MobiSys 2026", href: "https://dl.acm.org/doi/abs/10.1145/3745756.3809222", image: "/publications/harmonic-fingerprinting.png", aspectRatio: "1.65 / 1", contain: true },
-  { title: "Gaze Tracking on Any Surface with Your Phone", venue: "ACM SenSys 2022", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2022-SenSys-ASGaze.pdf", image: "/research-papers/asgaze.png", aspectRatio: "1 / 1.08" },
-  { title: "Practical Gaze Tracking on Any Surface with Your Phone", venue: "IEEE TMC 2024", href: "https://ieeexplore.ieee.org/document/10638728", image: "/research-papers/gaze-tmc.png", aspectRatio: "1.35 / 1" },
-  { title: "GASLA: Enhancing the Applicability of Sign Language Translation", venue: "IEEE INFOCOM 2022", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2022-Infocom-GASLA.pdf", image: "/research-papers/gasla-infocom.png", aspectRatio: "1.5 / 1" },
-  { title: "Enhancing the Applicability of Sign Language Translation", venue: "IEEE TMC 2024", href: "https://scholars.cityu.edu.hk/files/194313689/182780309.pdf", image: "/research-papers/gasla-tmc.png", aspectRatio: "1.15 / 1" },
-  { title: "aLeak: Privacy Leakage through Context-Free Wearable Side-Channel", venue: "IEEE INFOCOM 2018", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2018-INFOCOM-aLeak.pdf", image: "/research-papers/aleak-infocom.png", aspectRatio: "1 / 1.08" },
-  { title: "aLeak: Context-Free Side-Channel from Your Smart Watch Leaks Your Typing Privacy", venue: "IEEE TMC 2019", href: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8718344", image: "/research-papers/aleak-tmc.png", aspectRatio: "1.4 / 1" },
-  { title: "Mobile Phones Know Your Keystrokes through the Sounds from Finger's Tapping on the Screen", venue: "IEEE ICDCS 2020", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2020-ICDCS-TapLeak.pdf", image: "/research-papers/tapleak.png", aspectRatio: "1.25 / 1" },
-  { title: "Keystroke Recognition with the Tapping Sound Recorded by Mobile Phone Microphones", venue: "IEEE TMC 2021", href: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9658138&tag=1", image: "/research-papers/keystroke-tmc.png", aspectRatio: "1 / 1.1" },
+  { title: "Gaze Tracking on Any Surface with Your Phone", venue: "ACM SenSys 2022", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2022-SenSys-ASGaze.pdf", image: "/research-papers/asgaze.png", aspectRatio: "1 / 1.08", companion: { title: "Practical Gaze Tracking on Any Surface with Your Phone", venue: "IEEE TMC 2024", href: "https://ieeexplore.ieee.org/document/10638728" } },
+  { title: "GASLA: Enhancing the Applicability of Sign Language Translation", venue: "IEEE INFOCOM 2022", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2022-Infocom-GASLA.pdf", image: "/research-papers/gasla-infocom.png", aspectRatio: "1.5 / 1", companion: { title: "Enhancing the Applicability of Sign Language Translation", venue: "IEEE TMC 2024", href: "https://scholars.cityu.edu.hk/files/194313689/182780309.pdf" } },
+  { title: "aLeak: Privacy Leakage through Context-Free Wearable Side-Channel", venue: "IEEE INFOCOM 2018", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2018-INFOCOM-aLeak.pdf", image: "/research-papers/aleak-infocom.png", aspectRatio: "1 / 1.08", companion: { title: "aLeak: Context-Free Side-Channel from Your Smart Watch Leaks Your Typing Privacy", venue: "IEEE TMC 2019", href: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8718344" } },
+  { title: "Mobile Phones Know Your Keystrokes through the Sounds from Finger's Tapping on the Screen", venue: "IEEE ICDCS 2020", href: "https://yangliu-cs.github.io/YangLiu-CS/paper/2020-ICDCS-TapLeak.pdf", image: "/research-papers/tapleak.png", aspectRatio: "1.25 / 1", companion: { title: "Keystroke Recognition with the Tapping Sound Recorded by Mobile Phone Microphones", venue: "IEEE TMC 2021", href: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9658138&tag=1" } },
   { title: "EarPass: Continuous User Authentication with In-ear PPG", venue: "ACM EarComp 2023 · Best Paper", href: "https://dl.acm.org/doi/pdf/10.1145/3594739.3610670", image: "/research-papers/earpass.png", aspectRatio: "1.45 / 1" },
   { title: "Biometric Authentication Using Smartphone-Generated Acoustic Signals Modulated by Vascular Dynamics", venue: "ACM IASA 2025", href: "https://dl.acm.org/doi/pdf/10.1145/3737901.3768367", image: "/research-papers/acoustic-auth.png", aspectRatio: "1.05 / 1" },
 ];
