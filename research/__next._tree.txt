@@ -1,6 +1,6 @@
 :HL["/mobile-wearable-systems-group/_next/static/media/22a5144ee8d83bca-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mobile-wearable-systems-group/_next/static/media/7d4881bb7e1bf84d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/mobile-wearable-systems-group/_next/static/css/a5fa7aebbc3556df.css","style"]
+:HL["/mobile-wearable-systems-group/_next/static/css/bba8ca54a797b200.css","style"]
 :HL["/mobile-wearable-systems-group/media/vision.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/armtroi.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/wrhand.png","image"]
@@ -15,13 +15,9 @@
 :HL["/mobile-wearable-systems-group/research-papers/opera.png","image"]
 :HL["/mobile-wearable-systems-group/publications/harmonic-fingerprinting.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/asgaze.png","image"]
-:HL["/mobile-wearable-systems-group/research-papers/gaze-tmc.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/gasla-infocom.png","image"]
-:HL["/mobile-wearable-systems-group/research-papers/gasla-tmc.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/aleak-infocom.png","image"]
-:HL["/mobile-wearable-systems-group/research-papers/aleak-tmc.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/tapleak.png","image"]
-:HL["/mobile-wearable-systems-group/research-papers/keystroke-tmc.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/earpass.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/acoustic-auth.png","image"]
 :HL["/mobile-wearable-systems-group/research-papers/respear.png","image"]
@@ -38,4 +34,4 @@
 :HL["/mobile-wearable-systems-group/publications/earsleeve.png","image"]
 :HL["/mobile-wearable-systems-group/publications/nutriear.png","image"]
 :HL["/mobile-wearable-systems-group/publications/impactear.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"pG3MMUszwpl8urqcFzF7i"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"pJIuB7cL4RoBCH5ukMgtn"}
