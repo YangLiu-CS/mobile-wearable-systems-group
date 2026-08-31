@@ -4,4 +4,4 @@
 :HL["/mobile-wearable-systems-group/yang-liu.jpg","image"]
 :HL["/mobile-wearable-systems-group/people/linlu-gao.jpg","image"]
 :HL["/mobile-wearable-systems-group/people/xianchen.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"people","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"QHNnBVf1fJCeQNqCZIXof"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"people","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"uw9z5NB8wD77fLd3rX753"}
